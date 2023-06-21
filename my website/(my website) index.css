@@ -44,9 +44,24 @@ border-width: 5px;
     background-color: rgb(0, 255, 98);
 }
 
-h3{
+#H1{
     color: rgb(255, 255, 255);
     font-size: larger;
+}
+
+#H2{
+    color: rgb(255, 255, 255);
+    font-size: larger;
+}
+
+#H3{
+    color: rgb(255, 255, 255);
+    font-size: larger;  
+}
+
+#H4{
+    color: rgb(255, 255, 255);
+    font-size: larger;   
 }
 
 #pic1{
