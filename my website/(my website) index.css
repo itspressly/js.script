@@ -101,19 +101,34 @@ button{
     width: 300px;
     border-radius: 5px;
     font-size: x-large;
-    display: flex;
+    text-align: center;
 }
 
 body{
     background-image: url(me\ pressly)
 }
 
+#container{
+    width: 1000px;
+    height: 1000px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-evenly;
+
+}
+
+
+
+
 #pic5{
     height: 450px;
     margin-left: 300px;
-    margin-bottom: 0%;
+    margin-bottom: 0%;  
     
 }
+
 
 main{
     margin-left: 20px;
