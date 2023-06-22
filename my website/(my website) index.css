@@ -109,13 +109,8 @@ body{
 }
 
 #container{
-    width: 1000px;
-    height: 1000px;
-    background-color: blue;
     display: flex;
     flex-direction: column;
-    padding: 10px;
-    justify-content: space-evenly;
 
 }
 
@@ -123,10 +118,11 @@ body{
 
 
 #pic5{
-    height: 450px;
-    margin-left: 300px;
-    margin-bottom: 0%;  
-    
+    height: 400px;
+    margin-left: 305px;
+    margin-bottom: 0%; 
+    position: absolute; 
+    top: 1611px;
 }
 
 
