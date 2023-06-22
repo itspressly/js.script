@@ -1,4 +1,34 @@
-#H1{
+#H0{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+ ul{
+    list-style-type: none;
+    background-color: rgb(78, 214, 0);
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+
+ li a{
+    color: rgb(0, 16, 235);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    Font-family: 'Cherry Bomb One', cursive;
+}
+
+ a:hover{
+    background-color: rgb(3, 196, 180);
+}
+li{
+    float: left;
+    color: rgb(0, 0, 0);
 }
