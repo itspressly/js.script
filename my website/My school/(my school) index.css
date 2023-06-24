@@ -66,7 +66,8 @@ li{
     color: rgb(0, 0, 0);
 }
 #pic1{
-    margin-left: 30%;
+    margin-left: 0px;
+
 }
 
 #pic2{
@@ -74,5 +75,12 @@ li{
 }
 
 #pic3{
-    height: 400px;
+    height: 445px;
+    position: absolute;
+    margin-top: 700px;
+    top: 725px;
+}
+#pic4{
+    height: fit-content;
+    height: 250px;
 }
