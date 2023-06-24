@@ -3,6 +3,10 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+#H1{
+    font-size: larger;
+}
+
 main{
     margin-left: 20px;
     margin-right: 20px;
@@ -10,14 +14,14 @@ main{
 
  ul{
     list-style-type: none;
-    background-color: rgb(78, 214, 0);
+    background-image: url(f2abbf-starfield.png);
     margin: 0%;
     padding: 0%;
     overflow: hidden;
 }
 
  li a{
-    color: rgb(0, 16, 235);
+    color: rgb(219, 219, 219);
     text-decoration: none;
     padding: 15px;
     display: block;
@@ -25,7 +29,7 @@ main{
  }
 
  a:hover{
-    background-color: rgb(3, 196, 180);
+    background-color: rgb(115, 182, 176);
 }
 li{
     float: left;
