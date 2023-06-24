@@ -4,7 +4,37 @@
 }
 
 #H1{
-    font-size: larger;
+    font-size: xx-large;
+    font-style: normal;
+    color: aqua;
+}
+
+#P1{
+    font-size: x-large;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#P2{
+    font-size: x-large;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#P3{
+    font-size: x-large;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#P4{
+    font-size: x-large;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
 }
 
 main{
@@ -34,4 +64,15 @@ main{
 li{
     float: left;
     color: rgb(0, 0, 0);
+}
+#pic1{
+    margin-left: 30%;
+}
+
+#pic2{
+    height: 440px;
+}
+
+#pic3{
+    height: 400px;
 }
