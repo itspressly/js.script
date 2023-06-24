@@ -22,8 +22,7 @@ main{
     padding: 15px;
     display: block;
     text-align: center;
-    Font-family: 'Cherry Bomb One', cursive;
-}
+ }
 
  a:hover{
     background-color: rgb(3, 196, 180);
