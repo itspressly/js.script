@@ -1,60 +1,35 @@
-const cell = document.querySelectorAll(".cell")
-const statustext = Document.querySelector("#statustext")
-const restartbutton = Document.querySelector("#restartbutton")
-const winconditions = [
-    [0,1,2]
-    [3,4,5]
-    [6,7,8]
-    [0,3,6]
-    [1,4,7]
-    [2,5,8]
-    [0,4,8]
-    [2,4,6]
+const computerchoicedisplay = document.getElementById('computer-choice')
 
-];
-let options = ["","","","","","","","",""];
-let currentplayer = "x";
-let running = false;
+const playerchoicedisplay = document.getElementById('player-choice')
 
-initializeGame();
+const resultdisplay = document.getElementById('result')
 
-function initializeGame(){
+const possiblechoices = document.querySelectorAll('button')
 
-cell.foreach(cell => cell.addEventlistener("click",cellCLicked))
-    restartbutton.addEventlistener("click",restartgame);
-    statustext.textContent = '${currentplayer}s turn'
-    running = true;
-}
-function cellCLicked(){
-    const cellIndex = this.getattribute("cellindex");
+let playerchoice
+let computerchoice
 
-    if(options[cellindex] != "" || !running){
-        return;
+possiblechoices.forEach(possiblechoice => possiblechoice.addEventListener('click', (e) => {
+playerchoice = e.target.id
+playerchoicedisplay.innerHTML = playerchoice
+generatecomputerchoice()
+}))
+
+function generatecomputerchoice() {
+    const randomnumber = math.floor(math.random()  * 3) // or you can use possiblechoices.length 
+   
+
+    if (randomnumber === 1) {
+        computerchoice = 'rock'
     }
 
-    updateCell(this, cellindex);
-    checkwinner();
+    if (randomnumber === 2) {
+        computerchoice = 'scissors'
+    }
+
+    if (randomnumber === 3) {
+        computerchoice = 'paper'
+    }
 }
 
-function updateCell(cell, index){
-    options[index] = currentplayer;
-    cell.textContent = currentplayer;
-
-}
-
-function changeplayer(){
-    currentplayer = (currentplayer == "x")? "o" : "x";
-    statustext.textContent = '${currentplayer}s turn ';
-
-
-}
-
-function checkwinner(){
-
-
-}
-
-function restartgame(){
-
-
-}
+computerchoicedisplay.innerHTML = computerchoice
