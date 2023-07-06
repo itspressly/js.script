@@ -132,6 +132,7 @@ main{
 }
 
  ul{
+    position: fixed;
     list-style-type: none;
     background-color: rgb(255, 255, 255);
     margin: 0%;

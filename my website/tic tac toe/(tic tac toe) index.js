@@ -43,7 +43,7 @@ function getresult() {
     }
 
     if (computerchoice ===  'rock'&& playerchoice === "paper") {
-        result = 'you win!'
+        result = 'you win!0'
     }
 
     if (computerchoice ===  'rock'&& playerchoice === "scissors") {
